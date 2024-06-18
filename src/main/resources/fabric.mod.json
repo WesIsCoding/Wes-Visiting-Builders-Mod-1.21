@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "visitingbuildersmod",
+	"version": "${version}",
+	"name": "Wes's Visiting Builders",
+	"description": "This mod adds a companion or adversary to your world; Another Builder!",
+	"authors": [
+		"Wesley"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/visitingbuildersmod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"wesley.visitingbuildersmod.WessVisitingBuilders"
+		],
+		"Client": [
+			"wesley.visitingbuildersmod.WessVisitingBuildersClient"
+		],
+		"fabric-datagen": [
+			"wesley.visitingbuildersmod.WessVisitingBuildersDataGenerator"
+		]
+	},
+	"mixins": [
+		"visitingbuildersmod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
