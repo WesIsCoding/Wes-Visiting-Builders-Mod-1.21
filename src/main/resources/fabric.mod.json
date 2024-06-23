@@ -16,13 +16,13 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"wesley.visitingbuildersmod.WessVisitingBuilders"
+			"wesley.visitingbuildersmod.VisitingBuilders"
 		],
 		"Client": [
-			"wesley.visitingbuildersmod.WessVisitingBuildersClient"
+          "wesley.visitingbuildersmod.VisitingBuildersClient"
 		],
 		"fabric-datagen": [
-			"wesley.visitingbuildersmod.WessVisitingBuildersDataGenerator"
+			"wesley.visitingbuildersmod.VisitingBuildersDataGenerator"
 		]
 	},
 	"mixins": [

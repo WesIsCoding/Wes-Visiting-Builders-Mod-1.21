@@ -1,0 +1,6 @@
+{
+  "parent": "visiting:builtin/entity",
+  "textures": {
+    "layer0": "my_mod:textures/entity/steve.png"
+  }
+}
